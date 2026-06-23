@@ -10,7 +10,7 @@ import { createContext, useContext } from "react";
 const Cart = () => {
 
     useEffect(() => {
-        fetch('http://localhost:3000/products')
+        fetch("https://xdqwe-5.onrender.com/products")
         .then(response => response.json())
         .then(data => {
             setClothes(data);
